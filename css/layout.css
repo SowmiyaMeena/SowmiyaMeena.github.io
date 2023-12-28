@@ -642,8 +642,8 @@ ul#nav li.current a { color: #F06000; }
 /* Portfolio Content */
 
 #portfolio-wrapper {
-   /* display:flex; Negative margin to offset the default margin on columns */
-   white-space: nowrap; /* Prevent projects from wrapping to the next line */
+   display:flex; /* Negative margin to offset the default margin on columns */
+   /* white-space: nowrap; Prevent projects from wrapping to the next line */
 }
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
