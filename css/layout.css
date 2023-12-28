@@ -627,12 +627,16 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+   background: #11ABB0;
    padding-top: 90px;
    padding-bottom: 60px;
 }
 #portfolio h1 {
    color: black;
+}
+
+#portfolio h3 {
+  color: #fff;
 }
 
 /* Portfolio Content */
@@ -742,7 +746,7 @@ ul#nav li.current a { color: #F06000; }
 }
 .popup-modal .description-box .categories {
    font: 11px/21px 'opensans-light', sans-serif;
-   color: #A1A1A1;
+   color: #111;
    text-transform: uppercase;
    letter-spacing: 2px;
    display: block;
