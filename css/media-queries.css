@@ -477,12 +477,16 @@
    /* Portfolio Section
    /* ----------------------------------------------------------------- */
    #portfolio-wrapper {
-      display:flex; /* Change to block for stacked layout on smaller screens */         
-      white-space: normal; /* Allow text to wrap on smaller screens */
+      display: flex;
+      flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+      justify-content: space-between; /* Adjust as needed based on your design */
+      align-items: stretch; /* Adjust as needed based on your design */
    }
    
-   .portfolio-item .item-wrap {
-      margin-bottom: 20px; /* Add margin between projects on smaller screens */
+   .portfolio-item {
+      flex: 0 0 calc(20% - 20px); /* Adjust the width of each item */
+      margin-right: 36px; /* Adjust margin between items */
+      margin-bottom: 20px; /* Add margin between rows */
    }
    
    
