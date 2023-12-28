@@ -642,9 +642,20 @@ ul#nav li.current a { color: #F06000; }
 /* Portfolio Content */
 
 #portfolio-wrapper {
-   display:flex; /* Negative margin to offset the default margin on columns */
-   white-space: nowrap; /*Prevent projects from wrapping to the next line */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-bottom: -36px; /* Negative margin to offset the default margin on columns */
+  white-space: nowrap; /* Prevent projects from wrapping to the next line on larger screens */
 }
+
+.portfolio-item {
+  flex: 0 0 calc(20% - 20px); /* Adjust the width of each item for better responsiveness */
+  margin-right: 2px;
+  margin-bottom: 30px;
+}
+
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
    background: #fff;
