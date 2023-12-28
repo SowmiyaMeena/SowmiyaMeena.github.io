@@ -243,8 +243,8 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-  padding-top: 12rem;
-  padding-bottom: 15rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
 #about .section-intro {
@@ -334,8 +334,8 @@ ul#nav li.current a { color: #F06000; }
 
 #resume {
    background: #fff;
-   padding-top: 90px;
-   padding-bottom: 72px;
+   padding-top: 50px;
+   padding-bottom: 50px;
 }
 
 #resume .resume-header {
@@ -628,8 +628,8 @@ ul#nav li.current a { color: #F06000; }
 
 #portfolio {
    background: #11ABB0;
-   padding-top: 90px;
-   padding-bottom: 60px;
+   padding-top: 50px;
+   padding-bottom: 50px;
 }
 #portfolio h1 {
    color: black;
@@ -640,10 +640,16 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* Portfolio Content */
+
+#portfolio-wrapper {
+   display: flex;
+   margin-bottom: -36px; /* Negative margin to offset the default margin on columns */
+   white-space: nowrap; /* Prevent projects from wrapping to the next line */
+}
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
    background: #fff;
-   overflow: hidden;
+   overflow:visible;
    position: relative;
 
    -webkit-transition: all 0.3s ease-in-out;
