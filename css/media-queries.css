@@ -481,6 +481,7 @@
       flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
       justify-content: space-between; /* Adjust as needed based on your design */
       align-items: stretch; /* Adjust as needed based on your design */
+      white-space: wrap;
    }
    
    .portfolio-item {
