@@ -476,9 +476,8 @@
 
    /* Portfolio Section
    /* ----------------------------------------------------------------- */
-   .portfolio-item {
-      flex: 0 0 calc(50% - 20px); /* Full width on smaller screens */
-      margin-right: 0;
+   #portfolio-wrapper {      
+      white-space: normal;
    }
    
    
