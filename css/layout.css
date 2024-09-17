@@ -11,7 +11,7 @@
    c. About Section
    d. Resume Section
    e. Portfolio Section
-   f. Activities
+   f. Publication section
    g. Stats
    h. Contact Section
    i. Footer
@@ -931,75 +931,91 @@ ul#nav li.current a { color: #F06000; }
 
 /** 
  * ===================================================================
- * f. Activities - (_layout.scss)
+ * f. publication - (_layout.scss)
  *
  * ------------------------------------------------------------------- 
  */
-#activities {
-  background: black url(../images/bg.jpg) no-repeat center;
+ #publication {
+  background: black url(../images/testimonials-bg.jpg) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  padding-top: 90px;
-  padding-bottom: 60px;
+  padding: 60px 0;
   color: white;
   position: relative;
 }
-#activities .overlay {
+
+#publication .overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: #151515;
-  opacity: .9;
+  background: #000;
+  opacity: .6;
 }
 
-#activities .section-intro {
-  margin-bottom: 1.8rem;
+#publication .container {
+  position: relative;
+  z-index: 1;
+  padding: 0 15px;
 }
 
-#activities .section-intro h1 {
+#publication .section-intro {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+#publication .section-intro h1 {
   color: white;
+  font-size: 38px; /* Large heading */
+  margin-bottom: 1rem;
 }
 
-#activities .section-intro p {
-  color: rgba(255, 255, 255, 0.7);
+#publication .section-intro p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 20px; /* Larger paragraph text */
 }
 
-#activities .activities-content {
-  max-width: 1200px;
+#publication .publications-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
 }
 
-.activity {
-   margin-bottom: 48px;
-   padding-bottom: 24px;
+.publication-item {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1 1 calc(33% - 20px); /* 3 items per row with spacing */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-#activities h3 {
+.publication-item h3 {
   color: #F06000;
-  text-align: center;
+  font-size: 28px; /* Large heading for items */
+  margin-bottom: 10px;
 }
 
-#activities .info {
-   font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
-   margin-bottom: 18px;
-   margin-top: 9px;
-   text-align: center;
-}
-#activities .info span {
-   margin-right: 5px;
-   margin-left: 5px;
-}
-#activities .date {
-   font: 15px/24px 'opensans-regular', sans-serif;
-   margin-top: 6px;
+.publication-item .info {
+  font-size: 18px; /* Larger text */
+  color: #ffffff;
+  margin-bottom: 10px;
 }
 
-#activities p {
-  text-align: center;
+.publication-item .date {
+  font-size: 16px; /* Medium size text for date */
+  color: #cccccc;
 }
+
+.publication-item p {
+  font-size: 18px; /* Larger text for content */
+  color: #eeeeee;
+  line-height: 1.6; /* Better line spacing */
+}
+
+
 
 
 /** 

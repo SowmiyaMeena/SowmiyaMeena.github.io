@@ -115,10 +115,10 @@
 
                <img src="images/profilepic.jpg" alt="Profile Picture">
 
-               <p class="lead">Welcome to my digital space! I'm Sowmiya, a seasoned software developer and impactful researcher with 9 years of experience in application development, 
-                  data analysis, and AI/ML solutions for healthcare and retail sectors. My work focuses on integrating machine learning and predictive analytics for impactful solutions.
-                  Throughout my career, I've spearheaded innovative projects and contributed to advancing technology through my research. 
-                  This website showcases my journey, projects, and skills. Let's connect and explore the world of technology together! </p>
+               <div><p >Welcome to my digital space! I’m Sowmiya, a seasoned software developer and researcher with 9 years of experience in developing innovative solutions.
+                  My expertise spans application development, data analysis, and cutting-edge AI/ML technologies. 
+                  From anonymizing sensitive datasets with advanced deep learning algorithms to creating intuitive apps that enhance user engagement.
+                  This website showcases my journey, projects, and skills. Let's connect and explore the world of technology together! </p></div>
             </div>            
 
          </div>         
@@ -153,7 +153,8 @@
 
             <h3>Skills</h3>
             <p>Proficient in Python, TensorFlow, and PyTorch for building predictive models, with expertise in data anonymization and visualization tools. 
-               Skilled in implementing AI algorithms and frameworks, including Google PaLM LLM and Hugging Face embeddings, to enhance data-driven decision-making and business outcomes.
+               Worked on projects applying NLP techniques and leveraging large language models (LLMs) such as Google PaLM for natural language understanding and generation. 
+                     Experienced with Hugging Face embeddings for semantic analysis and Langchain for integrating NLP models into applications.
                Here are key highlights of my technical skills:</p>
 
             <ul class="skill-bars">
@@ -162,7 +163,7 @@
                   <strong>Python</strong>
                </li>
                <li>
-                  <div class="progress percent90"><span>90%</span></div>
+                  <div class="progress percent85"><span>85%</span></div>
                   <strong>TensorFlow</strong>
                </li>
                <li>
@@ -170,28 +171,27 @@
                   <strong>PyTorch</strong>
                </li>
                <li>
-                  <div class="progress percent80"><span>90%</span></div>
+                  <div class="progress percent80"><span>80%</span></div>
                   <strong>SQL</strong>
-               </li>
+               </li>                               
                <li>
-                  <div class="progress percent60"><span>80%</span></div>
-                  <strong>jQuery/JS/React</strong>
-               </li>  
-               <li>
-                  <div class="progress percent60"><span>80%</span></div>
-                  <strong>GIT</strong>
-               </li>  
-               <li>
-                  <div class="progress percent50"><span>60%</span></div>
-                  <strong>NLP</strong>
+                  <div class="progress percent70"><span>70%</span></div>
+                  <strong>NLP/LLM/GenAI</strong>                                   
                </li> 
                <li>
-                  <div class="progress percent50"><span>60%</span></div>
+                  <div class="progress percent70"><span>70%</span></div>
                   <strong>GCP</strong>
                </li> 
-               
-      
-            </ul> <!-- /skill-bars -->    
+               <li>
+                  <div class="progress percent80"><span>80%</span></div>
+                  <strong>React/JavaScript</strong>
+               </li> 
+               <li>
+                  <div class="progress percent80"><span>80%</span></div>
+                  <strong>Git/VS Code</strong>
+               </li>  
+            </ul> <!-- /skill-bars -->   
+
          </div>
 
       </div>
@@ -199,7 +199,7 @@
       <div class="row button-section">
          <div class="col-twelve">
             <a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
-            <a href="files/Sowmiya_Resume_fullstack.pdf" title="Download CV" class="button button-primary">Download CV</a>
+            <a href="files/Sowmiya_Resume.pdf" title="Download CV" class="button button-primary">Download CV</a>
          </div>         
       </div>
    </section> <!-- /process-->    
@@ -345,6 +345,21 @@
 
                <div class="columns portfolio-item">
                   <div class="item-wrap">
+                     <a href="#modal-06" title="">
+                        <img alt="" src="images/portfolio/ml-ai-project.jpg"> <!-- Replace with your image -->
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                              <h5>ML/AI Projects</h5> <!-- Replace with your project title -->
+                              <p>EndtoEnd Projects</p> <!-- Replace with a short description -->
+                           </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+                  </div>
+               </div> <!-- item end -->   
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
                      <a href="#modal-01" title="">
                         <img alt="" src="images/portfolio/sgwalk-Logo.png">
@@ -426,8 +441,9 @@
                      </a>
 
                   </div>
-               </div>  <!-- item end -->              
-         
+               </div>  <!-- item end -->   
+               
+                     
 
             </div> <!-- portfolio-wrapper end -->
 
@@ -558,48 +574,62 @@
 
 	      </div><!-- modal-05 End -->
 
+         <div id="modal-06" class="popup-modal mfp-hide">
+            <img class="scale-with-grid" src="images/portfolio/ml-ai-project.jpg" alt="" />
+            <div class="description-box">
+               <h4>ML/AI Projects Showcase</h4>
+               <p>Here are the projects I've worked on:</p>
+               <ul>
+                  <li><strong>Natural Language Query System for Retail Store Database:</strong> This is an end-to-end LLM project based on Google PaLM and Langchain. We are building a system that can talk to a MySQL database. Users ask questions in natural language, and the system generates answers by converting those questions into SQL queries and then executing those queries on the MySQL database. The T-shirt store maintains its inventory, sales, and discounts data in the MySQL database. Technologies used: Google PaLM, Langchain, Hugging Face Embeddings, Streamlit, Chromadb.</li>
+                  <li><strong>Question and Answer System Based on Google PaLM LLM and Langchain for E-learning Company:</strong> This is an end-to-end LLM project based on Google PaLM and Langchain. We are building a Q&A system for an e-learning company. The system will provide a Streamlit-based user interface for students where they can ask questions and get answers.</li>
+                  <li><strong>Financial Data Visualization WebApp:</strong> This project is a web application that allows users to upload financial data in CSV format, visualize the data through bar and pie charts, and dynamically display the chart by year. The application is built using Flask for the backend and React for the frontend.</li>
+                  <li><strong>Diabetes Prediction Using ANN with PyTorch:</strong> This project involves developing a prediction model for diabetes using Artificial Neural Networks (ANN) with PyTorch.</li>
+               </ul>
+               <span class="categories"><i class="fa fa-tag"></i>Python, PyTorch, GenAI, LLM, ANN</span>
+            </div>
+            <div class="link-box">
+               <a href="https://github.com/SowmiyaMeena" target="_blank">Details</a>
+               <a class="popup-modal-dismiss">Close</a>
+            </div>
+         </div><!-- modal-06 End -->
+         
+
       </div> <!-- row End -->
 
    </section> <!-- Portfolio Section End-->
 
 
-      <!-- Publications Section
-   ================================================== -->
    <section id="publication">
-
-      <div class="row section-intro">
-         <div class="col-twelve">
-            <h2>Publications</h2>
-
-            <h5>Evaluation of Supporting Tools for Health Coaches Providing Nutrition and
-               Exercise Coaching to Older Adults in Singapore</h5>
-
-            <p class="lead">A rapidly ageing population and multimorbidity
-               are questioning the sustainability of healthcare systems
-               in Singapore, whereby health coaches, who help older
-               adults build and sustain a healthy lifestyle, have
-               become increasingly popular in recent years. Health
-               coaches however face multiple challenges due to
-               caregiver burden. In this study, we designed and
-               evaluated web and mobile applications (“apps”) to
-               support health coaches with scheduling, managing
-               reports, and providing access to resources related to
-               nutrition and exercise for older adults. We examined
-               the acceptance and usability of the apps with health
-               coaches after they completed 8 weekly online health
-               coaching sessions. We found desirable functions
-               included consideration of ethnic diversity in the context
-               of a multi-culture society, potential of providing justin-time information when they face problems during
-               coaching, and helpful materials and links for health
-               coaches to refer to.</p>
-
-               <span class="categories"><i class="fa fa-tag"></i>Published by University of Hawai'i at Manoa as part of the HICSS
-                  Proceedings</span>
-
-         </div>  
-      </div><!-- /section-intro -->
-   </section><!-- Publications Section End -->
-
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="section-intro">
+          <h1>Publication</h1>
+          <p>Explore my research publication and related work in this section.</p>
+        </div>
+        <div class="publications-list">
+          <!-- Example of a publication item -->
+          <div class="publication-item">
+            <h3>Evaluation of Supporting Tools for Health Coaches Providing Nutrition and Exercise Coaching to Older Adults in Singapore</h3>
+            <div class="info">
+              <span> Cao, Y., Siva Subramanian, S. M., Erdt, M., Mohamed Riaz, M. T. M. A., Yi, J., & Theng, Y. L. (2023).
+               <br> 56th Hawaii International Conference on System Sciences (HICSS 2023), 2921-2930.</span>
+            </div>
+            <span class="categories"><i class="fa fa-tag"></i> Published by University of Hawai'i at Manoa as part of the HICSS Proceedings</span>
+            
+            <p> A rapidly ageing population and multimorbidity are questioning the sustainability of healthcare systems
+               in Singapore, whereby health coaches, who help older adults build and sustain a healthy lifestyle, have
+               become increasingly popular in recent years. Health coaches, however, face multiple challenges due to
+               caregiver burden. 
+               In this study, we designed and evaluated web and mobile applications (“apps”) to support health coaches
+               with scheduling, managing reports, and providing access to resources related to nutrition and exercise for
+               older adults. We examined the acceptance and usability of the apps with health coaches after they completed
+               8 weekly online health coaching sessions. We found desirable functions included consideration of ethnic diversity in the context
+               of a multi-culture society, the potential of providing just-in-time information when they face problems during
+               coaching, and helpful materials and links for health coaches to refer to.</p>
+          </div>         
+        </div>
+      </div>
+    </section>
 
    <!-- contact
    ================================================== -->
