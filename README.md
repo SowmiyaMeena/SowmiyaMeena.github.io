@@ -1,4 +1,4 @@
-# sowmiya-portfolio, Personal Website Resume for Software Developer
+# sowmiya-portfolio, Personal Website Resume
 
 Edited by Sowmiya Meena
 
